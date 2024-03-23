@@ -1,0 +1,79 @@
+header {
+    text-align: center;
+}
+
+td {
+    color: black;
+    text-align: center;
+    width: 5vw;
+    border: 1px solid grey;
+    font-weight: bold;
+}
+
+#none {
+    border: none;
+}
+
+#yellow {
+    background-color: rgb(248, 248, 193);
+}
+
+#pink {
+    background-color: rgb(244, 191, 199);
+}
+
+#purple {
+    background-color: rgb(193, 178, 222);
+}
+
+#blue {
+    background-color: rgb(153, 195, 241);
+}
+
+#green {
+    background-color: aquamarine;
+}
+
+#greenp {
+    background-color: rgb(191, 236, 154);
+}
+
+#orange {
+    background-color: rgb(247, 223, 184);
+}
+
+#skyb {
+    background-color: rgb(139, 244, 244);
+}
+
+#aqua {
+    background-color: rgb(189, 231, 217);
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flexitem {
+    text-align: center;
+    padding: 1vh;
+    font-size: 2vh;
+    flex: 1;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background: url(periodictable.png); 
+        background-position: center; 
+        background-size:contain;
+        background-repeat: no-repeat;
+        padding: 200px;
+       
+        
+    } .flex-container {
+        display: none;
+    } header {
+        display: none;
+    }
+}
